@@ -36,12 +36,13 @@ function Main() {
         </div>
   
         <div className="profile_foot">
-          <ul>
-          <img src={Twitter} alt="logoReact" width="7%" />
+          
+          <img className="media" src={Twitter} alt="logoReact" width="7%" />
           <img src={Facebook} alt="logoReact" width="7%" />
           <img src={Instagram} alt="logoReact" width="7%" />
           <img src={Pinsterest} alt="logoReact" width="7%" />
-          </ul>
+          
+          
         </div>
       </div>
     );
