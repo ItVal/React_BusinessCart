@@ -52,3 +52,21 @@ h4{
 h2{
   font-size: 16px;
 }
+button{
+  width: 235px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+}
+.profile_contents{
+  margin: 0 35px;
+  text-align: left;
+}
+p{
+  font-size: 10.24px;
+}
+
+.profile_foot{
+  background-color: #161619;
+  width: 100%;
+}
