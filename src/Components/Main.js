@@ -1,9 +1,13 @@
-
+import ValImg from "../Val.jpeg";
+import Twitter from "../icon-twitter.svg";
+import Facebook from "../icon-facebook.svg";
+import Instagram from "../icon-instagram.svg";
+import Pinsterest from "../icon-pinterest.svg";
 function Main() {
     return (
       <div className="profil">
         <div className="profil_image">
-          <img className="image_item" src='' alt="logoReact" />
+        <img className="image_item" src={ValImg} alt="logoReact" />
         </div>
   
         <div className="profile_name">
@@ -31,7 +35,10 @@ function Main() {
   
         <div className="profile_foot">
           <ul>
-            
+          <img src={Twitter} alt="logoReact" width="7%" />
+          <img src={Facebook} alt="logoReact" width="7%" />
+          <img src={Instagram} alt="logoReact" width="7%" />
+          <img src={Pinsterest} alt="logoReact" width="7%" />
           </ul>
         </div>
       </div>
