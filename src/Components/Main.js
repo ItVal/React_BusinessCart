@@ -3,6 +3,7 @@ import Twitter from "../icon-twitter.svg";
 import Facebook from "../icon-facebook.svg";
 import Instagram from "../icon-instagram.svg";
 import Pinsterest from "../icon-pinterest.svg";
+import Mail from "../mail.svg";
 function Main() {
     return (
       <div className="profil">
@@ -15,7 +16,8 @@ function Main() {
           <h4>Frontend Developper</h4>
           <p>irnasvalentin@gmail.com</p>
           <button>
-          <img src="" alt="logoReact"  /> Email
+          <img src={Mail} alt="logoReact" width="8%" /> 
+          <span>Email</span> 
           </button>
         </div>
   
