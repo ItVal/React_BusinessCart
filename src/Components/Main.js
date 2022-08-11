@@ -1,9 +1,10 @@
 import ValImg from "../Val.jpeg";
-import Twitter from "../icon-twitter.svg";
-import Facebook from "../icon-facebook.svg";
-import Instagram from "../icon-instagram.svg";
-import Pinsterest from "../icon-pinterest.svg";
-import Mail from "../mail.svg";
+import Twitter from "../icons8-twitter.svg";
+import Facebook from "../icons8-facebook.svg";
+import Instagram from "../icons8-instagram.png";
+import Linkedin from "../icons8-linkedin.svg";
+import Github from "../icons8-github.svg";
+import Mail from "../icons8-gmail-logo.svg";
 function Main() {
     return (
       <div className="profil">
@@ -40,7 +41,8 @@ function Main() {
           <img className="media" src={Twitter} alt="logoReact" width="7%" />
           <img src={Facebook} alt="logoReact" width="7%" />
           <img src={Instagram} alt="logoReact" width="7%" />
-          <img src={Pinsterest} alt="logoReact" width="7%" />
+          <img src={Linkedin} alt="logoReact" width="7%" />
+          <img src={Github} alt="logoReact" width="7%" />
           
           
         </div>
