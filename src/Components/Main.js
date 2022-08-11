@@ -15,7 +15,7 @@ function Main() {
         <div className="profile_name">
           <h1>Valentin Nasibu </h1>
           <h4>Frontend Developper</h4>
-          <p>irnasvalentin@gmail.com</p>
+          <p>dev-jonasvalentinportfolio.pantheonsite.io/</p>
           <button>
           <img src={Mail} alt="logoReact" width="8%" /> 
           <span>Email</span> 
